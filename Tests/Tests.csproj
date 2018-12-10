@@ -52,9 +52,9 @@
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Analytics.Xamarin.Pcl\Analytics.Xamarin.NetStandart.csproj">
+    <ProjectReference Include="..\Analytics.Segment\Analytics.Segment.csproj">
       <Project>{01e75533-42a6-45a5-84a8-acc8ef7d729d}</Project>
-      <Name>Analytics.Xamarin.NetStandart</Name>
+      <Name>Analytics.Segment</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

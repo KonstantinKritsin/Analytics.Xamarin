@@ -3,6 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.1</TargetFramework>
     <NeutralLanguage>en</NeutralLanguage>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Fork from https://github.com/segmentio/Analytics.Xamarin updated to netstandart1.1</Description>
   </PropertyGroup>
 
   <ItemGroup>

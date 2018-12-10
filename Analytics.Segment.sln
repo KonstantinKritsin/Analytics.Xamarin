@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{DF5F3A0E-A598-45CB-802F-A06967974362}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analytics.Xamarin.NetStandart", "Analytics.Xamarin.Pcl\Analytics.Xamarin.NetStandart.csproj", "{01E75533-42A6-45A5-84A8-ACC8EF7D729D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Analytics.Segment", "Analytics.Segment\Analytics.Segment.csproj", "{01E75533-42A6-45A5-84A8-ACC8EF7D729D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
