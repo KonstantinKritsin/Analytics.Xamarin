@@ -110,6 +110,7 @@ git ;-)
 _UpgradeReport_Files/
 Backup*/
 UpgradeLog*
+.vs
 
 **sublime**
 
