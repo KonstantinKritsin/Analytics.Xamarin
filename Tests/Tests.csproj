@@ -71,9 +71,9 @@
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Analytics.Xamarin.Pcl\Analytics.Xamarin.Pcl.csproj">
-      <Project>{f074c87f-5524-4ff6-a0a9-74dc6bd5faa7}</Project>
-      <Name>Analytics.Xamarin.Pcl</Name>
+    <ProjectReference Include="..\Analytics.Xamarin.Pcl\Analytics.Xamarin.NetStandart.csproj">
+      <Project>{01e75533-42a6-45a5-84a8-acc8ef7d729d}</Project>
+      <Name>Analytics.Xamarin.NetStandart</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />

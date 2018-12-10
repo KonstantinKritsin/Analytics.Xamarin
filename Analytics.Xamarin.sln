@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{DF5F3A0E-A598-45CB-802F-A06967974362}"
 EndProject
@@ -11,8 +11,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		buildNuget.ps1 = buildNuget.ps1
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analytics.Xamarin.Pcl", "Analytics.Xamarin.Pcl\Analytics.Xamarin.Pcl.csproj", "{F074C87F-5524-4FF6-A0A9-74DC6BD5FAA7}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analytics.Xamarin.Android", "Analytics.Xamarin.Android\Analytics.Xamarin.Android.csproj", "{5FCCF15F-BF1F-4871-B684-E02A4DD418E2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analytics.Xamarin.iOS", "Analytics.Xamarin.iOS\Analytics.Xamarin.iOS.csproj", "{33432EE5-146F-4C0B-B9A8-D5387D758779}"
@@ -20,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analytics.Xamarin.UWP", "Analytics.Xamarin.UWP\Analytics.Xamarin.UWP.csproj", "{5020A79A-3FC9-42F3-9975-E73003391BF8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analytics.Xamarin.Net", "Analytics.Xamarin.Net\Analytics.Xamarin.Net.csproj", "{230084FF-FC68-469A-AC69-31CBE0FE82CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analytics.Xamarin.NetStandart", "Analytics.Xamarin.Pcl\Analytics.Xamarin.NetStandart.csproj", "{01E75533-42A6-45A5-84A8-ACC8EF7D729D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,22 +49,6 @@ Global
 		{DF5F3A0E-A598-45CB-802F-A06967974362}.Release|x64.Build.0 = Release|Any CPU
 		{DF5F3A0E-A598-45CB-802F-A06967974362}.Release|x86.ActiveCfg = Release|Any CPU
 		{DF5F3A0E-A598-45CB-802F-A06967974362}.Release|x86.Build.0 = Release|Any CPU
-		{F074C87F-5524-4FF6-A0A9-74DC6BD5FAA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F074C87F-5524-4FF6-A0A9-74DC6BD5FAA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F074C87F-5524-4FF6-A0A9-74DC6BD5FAA7}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{F074C87F-5524-4FF6-A0A9-74DC6BD5FAA7}.Debug|ARM.Build.0 = Debug|Any CPU
-		{F074C87F-5524-4FF6-A0A9-74DC6BD5FAA7}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{F074C87F-5524-4FF6-A0A9-74DC6BD5FAA7}.Debug|x64.Build.0 = Debug|Any CPU
-		{F074C87F-5524-4FF6-A0A9-74DC6BD5FAA7}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{F074C87F-5524-4FF6-A0A9-74DC6BD5FAA7}.Debug|x86.Build.0 = Debug|Any CPU
-		{F074C87F-5524-4FF6-A0A9-74DC6BD5FAA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F074C87F-5524-4FF6-A0A9-74DC6BD5FAA7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F074C87F-5524-4FF6-A0A9-74DC6BD5FAA7}.Release|ARM.ActiveCfg = Release|Any CPU
-		{F074C87F-5524-4FF6-A0A9-74DC6BD5FAA7}.Release|ARM.Build.0 = Release|Any CPU
-		{F074C87F-5524-4FF6-A0A9-74DC6BD5FAA7}.Release|x64.ActiveCfg = Release|Any CPU
-		{F074C87F-5524-4FF6-A0A9-74DC6BD5FAA7}.Release|x64.Build.0 = Release|Any CPU
-		{F074C87F-5524-4FF6-A0A9-74DC6BD5FAA7}.Release|x86.ActiveCfg = Release|Any CPU
-		{F074C87F-5524-4FF6-A0A9-74DC6BD5FAA7}.Release|x86.Build.0 = Release|Any CPU
 		{5FCCF15F-BF1F-4871-B684-E02A4DD418E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5FCCF15F-BF1F-4871-B684-E02A4DD418E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FCCF15F-BF1F-4871-B684-E02A4DD418E2}.Debug|ARM.ActiveCfg = Debug|Any CPU
@@ -129,9 +113,28 @@ Global
 		{230084FF-FC68-469A-AC69-31CBE0FE82CA}.Release|x64.Build.0 = Release|Any CPU
 		{230084FF-FC68-469A-AC69-31CBE0FE82CA}.Release|x86.ActiveCfg = Release|Any CPU
 		{230084FF-FC68-469A-AC69-31CBE0FE82CA}.Release|x86.Build.0 = Release|Any CPU
+		{01E75533-42A6-45A5-84A8-ACC8EF7D729D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01E75533-42A6-45A5-84A8-ACC8EF7D729D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01E75533-42A6-45A5-84A8-ACC8EF7D729D}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{01E75533-42A6-45A5-84A8-ACC8EF7D729D}.Debug|ARM.Build.0 = Debug|Any CPU
+		{01E75533-42A6-45A5-84A8-ACC8EF7D729D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{01E75533-42A6-45A5-84A8-ACC8EF7D729D}.Debug|x64.Build.0 = Debug|Any CPU
+		{01E75533-42A6-45A5-84A8-ACC8EF7D729D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{01E75533-42A6-45A5-84A8-ACC8EF7D729D}.Debug|x86.Build.0 = Debug|Any CPU
+		{01E75533-42A6-45A5-84A8-ACC8EF7D729D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01E75533-42A6-45A5-84A8-ACC8EF7D729D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01E75533-42A6-45A5-84A8-ACC8EF7D729D}.Release|ARM.ActiveCfg = Release|Any CPU
+		{01E75533-42A6-45A5-84A8-ACC8EF7D729D}.Release|ARM.Build.0 = Release|Any CPU
+		{01E75533-42A6-45A5-84A8-ACC8EF7D729D}.Release|x64.ActiveCfg = Release|Any CPU
+		{01E75533-42A6-45A5-84A8-ACC8EF7D729D}.Release|x64.Build.0 = Release|Any CPU
+		{01E75533-42A6-45A5-84A8-ACC8EF7D729D}.Release|x86.ActiveCfg = Release|Any CPU
+		{01E75533-42A6-45A5-84A8-ACC8EF7D729D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F16B104F-364D-46B9-AA7F-182E99213298}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Tests\Tests.csproj
